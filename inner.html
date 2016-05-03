@@ -1,115 +1,192 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>Нёрдс внутрення страница</title>
-  </head>
-  <body>
-      <div class="inner-head">
-          <div class="container">
-              <div class="inner-head-logo">
-                  <a href="#">
-                      <img src="http://placehold.it/150x100" alt="Нёрдс">
-                  </a>      
-              </div>
-               <div class="inner-navigation">
-                   <ul>
-                     <li><a href="#">Студия</a></li>
-                     <li><a href="#">Клиенты</a></li>
-                     <li><a href="#">Магазин</a></li>
-                     <li><a href="#">Контакты</a></li>
-                  </ul>
-              </div>
-              <div class="user-block">
-                  <a class="bue" href="#">Корзина</a>
-             </div>
-         <h1>ДОБРО ПОЖАЛОВАТЬ В МАГАЗИН<br>
-             ГОТОВЫХ МАКЕТОВ</h1>        
-         </div>
-      </div>
-      <div class="inner-content">
-          <div class="container">
-             <form class="content-form" action="https://echo.htmlacademy.ru" method="post">
-                 <span class="cost">СТОИМОСТЬ:</span><br>
-                  <label>
-                      от <input type="text" name="small">
-                  </label>
-                  <label>
-                      до <input type="text" name="big">
-                  </label><br>
-                 <span class="grid">СЕТКА:</span>
-                     <ul>
-                         <li>
-                             <label>
-                                 <input type="radio" checked name="answer" value="adaptive"> Адаптивная
-                             </label>
-                        </li>   
-                        <li>                  
-                            <label>
-                                <input type="radio" name="answer" value="fix"> Фиксированная
-                            </label>
-                        </li>
-                        <li>   
-                            <label>
-                                <input type="radio" name="answer" value="rubber"> Резиновая
-                            </label>
-                       </li>
-                 </ul>
-            </form>
-            <a href="#" class="inner-btn">Показать</a>
-            <div class="menu">
-                <span class="sorting">Сортировка:</span>
-                <a href="#">По цене</a>
-                <a href="#">По типу</a>
-                <a href="#">По функционалу</a>
+    <head>
+        <meta charset="utf-8">
+        <title>Нёрдс внутреннея страница</title>
+    </head>
+  
+    <body>
+       
+        <header>
+             <div class="container">
+                <div class="header-top">
+                    <div class="header-logo">
+                        <a href="#">
+                            <img src="img/header logo.png" alt="Нёрдс">
+                        </a>      
+                    </div>
+                    <nav>
+                        <ul>
+                           <li><a href="#">Студия</a></li>
+                           <li><a href="#">Клиенты</a></li>
+                           <li><a href="#">Магазин</a></li>
+                           <li><a href="#">Контакты</a></li>
+                        </ul>
+                    </nav>
+                    <div class="user-block">
+                        <div class="user-card">
+                            <a class="card" href="#">Корзина</a>
+                        </div>
+                    </div>
+                </div> 
+                <div class="header-title">      
+                  <h1>ДОБРО ПОЖАЛОВАТЬ В МАГАЗИН <!-- Нужна помощь-это Н1, тогда с главной страницой шрифт разный-->
+                      ГОТОВЫХ МАКЕТОВ</h1>        
+                </div>
             </div>
-        </div>    
-           <div class="gallery">
-               <a href="#">
-                   <img src="http://placehold.it/150x100" alt="Авиатор">
-               </a>
-               <a href="#">
-                   <img src="http://placehold.it/150x100" alt="Сансет">
-               </a>
-               <a href="#">
-                   <img src="http://placehold.it/150x100" alt="Форте">
-               </a>
-               <a href="#">
-                   <img src="http://placehold.it/150x100" alt="Модерн">
-               </a>
-               <a href="#">
-                   <img src="http://placehold.it/150x100" alt="Авеню">
-               </a>
-               <a href="#">
-                   <img src="http://placehold.it/150x100" alt="Доветаль">
-               </a>
-           </div>
-           <div class="gallery-control">
-               <a href="#" class="btn-number">1</a>
-               <a href="#" class="btn-number">2</a>
-               <a href="#" class="btn-number">3</a>
-               <a href="#" class="inner-btn">Следующая</a>
-           </div>
-        </div> 
-        <div class="inner-footer">
+        </header>
+      
+        <main>
             <div class="container">
-                <div class="main-footer-contacts">
-                    <b>NЁRDS DESIGN STUDIO</b><br>
-                    <p>191186,Санкт-Петербург,<br>
-                       ул.Б.Конюшенная,д.19/8</p>
-                       тел.+7(812)275-75-75<br>
-                    <p><a href="#" class="btn">Напишите нам</a></p>
-                </div>
-                <div class="main-footer-references">
-                   <ul>
-                       <li><a href="#">Вконтакте</a></li>
-                       <li><a href="#">Фейсбук</a></li>
-                       <li><a href="#">Инстаграмм</a></li>
-                   </ul>
-                    
-                </div>
-                <p><b>Давайте дружить,это выгодно!</b><br>
-                Скидка 10% для друзей из социальных сетей</p>
-         </div>   
-     </div>
-  </body>
+                <div class="filter">
+                    <form class="filter-form" action="https://echo.htmlacademy.ru" method="post">
+                        <div class="filter-coin"> 
+                            <h4>СТОИМОСТЬ:</h4>
+                            <label>
+                              от <input type="text" name="small">
+                            </label>
+                            <label>
+                              до <input type="text" name="big">
+                            </label>
+                        </div>
+                        <div class="filter-grid">   
+                            <h4>СЕТКА:</h4>
+                            <label><input type="radio" checked name="answer" value="adaptive"> Адаптивная</label><br><!-- в форме можно исполь. бр?-->        
+                            <label><input type="radio" name="answer" value="fix"> Фиксированная</label><br>
+                            <label><input type="radio" name="answer" value="rubber"> Резиновая</label>
+                        </div> 
+                        <div class="filter-features">
+                            <h4>ОСОБЕННОСТИ:</h4>
+                            <input type="checkbox" name="Слайдер" checked>Слайдер<br><!--Нужно ли исполь.br или можно по другому-->
+                            <input type="checkbox" name="Блок преимуществ">Блок преимуществ<br>
+                            <input type="checkbox" name="Новости" checked>Новости<br>
+                            <input type="checkbox" name="Галерея">Галерея<br>
+                            <input type="checkbox" name="Корзина">Корзина
+                        </div>     
+                        <input type="submit" value="Показать">
+                   </form>
+               </div>            
+               <div class="catalog">
+                    <div class="catalog-sorting">
+                        <h4>Сортировка:</h4>
+                        <ul class="catalog-sorting-list">
+                            <li><a href="#">По цене</a></li>
+                            <li><a href="#">По типу</a></li>
+                            <li><a href="#">По функционалу</a></li>
+                        </ul>       
+                    </div>
+                    <div class="sorting-erow">
+                        <ul class="strelochki-list">
+                            <li></li>
+                            <li></li>
+                        </ul>
+                          
+                    </div>    
+                    <div class="catalog-items">
+                        <div class="catalog-item"> 
+                            <a href="#"><img src="img/авиатор.jpg" widt="240" height="240" alt="Авиатор"></a>
+                            <div class="hover-item">
+                                <a href="#"><span>AVIATOR</span></a>
+                                <a href="#"><p>Одностроничный макет с авторским дизайном</p></a>
+                                <div class="hover-price">
+                                    <span>8000P.</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="catalog-item">        
+                            <a href="#"><img src="img/сансет.jpg" width="240" height="240" alt="Сансет"></a>
+                            <div class="hover-item">
+                                <a hef="#"><span>SUNSET</span></a>
+                                <a href="#"><p>Интернет-магазин с личным кабинетом</p></a>
+                                <div class="hover-price">
+                                    <span>10000P.</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="catalog-item">    
+                            <a href="#"><img src="img/форте.jpg" width="240" height="240" alt="Форте"></a>
+                            <div class="hover-item">
+                                <a href="#"><span>FORTE</span></a>
+                                <a href="#"><p>Отличный макет для личного блога</p></a>
+                                <div class="hover-price">
+                                    <span>5000P.</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="catalog-item">       
+                            <a href="#"><img src="img/модерн арганик.jpg" width="240" height="240" alt="Модерн"></a>
+                            <div class="hover-item">
+                                <a href="#"><span>MODERN ORGANIC THAI</span></a>
+                                <a href="#"><p>Сайт для ресторана быстрого питания</p></a>
+                                <div class="hover-price">
+                                    <span>12000P.</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="catalog-item">       
+                            <a href="#"><img src="img/авеню.jpg"  width="240" height="240" alt="Авеню"></a>
+                            <div class="hover-item">
+                                <a href="#"><span>AVENUE</span></a>
+                                <a href="#"><p>Макет для блога  о путешествиях</p></a>
+                                <div class="hover-price">
+                                    <span>8000P.</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="catalog-item">       
+                            <a href="#"><img src="img/доветаль.jpg"width="240" height="240" alt="Доветаль"></a>
+                            <div class="hover-item">
+                                <a href="#"><span>DOVETAL</span></a>
+                                <a href="#"><p>Интернет-магазин с галереей товаров</p></a>
+                                <div class="hover-price">
+                                    <span>14000P.</span>
+                                </div>
+                            </div>
+                        </div>    
+                   </div>
+                   <div class="paginations">
+                      <ul>
+                          <li><a href="#" class="btn btn-small btn-grey">1</a></li>
+                          <li><a href="#" class="btn btn-small btn-grey">2</a></li>
+                          <li><a href="#" class="btn btn-small btn-grey">3</a></li>
+                          <li><a href="#" class="btn btn-long btn-grey">Следующая</a></li>
+                     </ul>      
+                   </div>
+               </div>
+           </div>
+       </main> 
+       
+       <footer>
+          <div class="map">
+              <div class="footer-marker">
+                  <img src="img/футер маркер.png">
+              </div>      
+              <div class="footer-contacts">
+                  <p><b>NЁRDS DESIGN STUDIO</b><br><br>
+                        191186,Санкт-Петербург,<br>
+                        ул.Б.Конюшенная,д.19/8<br>
+                        тел.+7(812)275-75-75</p>
+                <p><a href="#" class="btn btn-long btn-red">Напишите нам</a></p>
+            </div>
+          </div>    
+             <div class="container">
+                 <div class="footer-social">
+                     <ul>
+                         <li><a href="#">Вконтакте</a></li>
+                         <li><a href="#">Фейсбук</a></li>
+                        <li><a href="#">Инстаграмм</a></li>
+                     </ul>
+                 </div>
+                 <p><b>Давайте дружить,это выгодно!</b><br>
+                       Скидка 10% для друзей из социальных сетей</p>
+             </div>   
+        </footer>
+        <div class="modal-window">
+            <form class="action-form" action="https://echo.htmlacademy.ru" method="post">
+                <label>Ваше имя:<input type="text" name="name"></label>
+                <label>Ваш e-mail:<input type="text" name="e-mail"></label><br>
+                <label>Текст письма:<br><textarea rows="10" cols="55">НИ ШАГУ НАЗАД!!!!))))С ДНЕМ ПОБЕДЫ!!!</textarea></label>
+            </form>
+        </div>   
+    </body>
+</html>
