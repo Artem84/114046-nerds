@@ -7,6 +7,147 @@ body {
     color: #000000;
     
 }
+.clearfix::after {
+  content: "";
+
+  display: table;
+  clear: both;
+}
+.container {
+    width: 880px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+header {
+    background: #eeeeee;
+    margin-bottom: 80px;
+    
+}
+.header-top {
+    padding-top: 5px;
+    margin-bottom: 50px;
+    
+}
+.header-logo {
+    float: left;
+    width: 160px;
+    margin-right: 50px;
+}
+nav {
+    float: left;
+    width: 480px;
+    margin-right: 90px;
+        
+}
+.user-block {
+    float: right;
+    width: 100px;
+}
+.slider {
+    
+}
+.products {
+    margin-bottom: 130px;
+    
+}
+.products-item {
+    float: left;
+    width:240;
+    margin-right: 80px;
+    
+}
+.products-item:last-child {
+    margin-right: 0px;
+}
+.seo-block {
+    margin-bottom: 120px;
+    
+}
+.seo-block-left {
+    float: left;
+    width: 580px;
+    margin-right: 60px;
+}
+.seo-block-right {
+    float:right;
+    width: 240px;
+}
+.partners {
+    margin-bottom:;
+    
+}
+.partners-item {
+    float: left;
+    width: 220px;
+    margin-right: 100px;
+}
+.partners-item:last-child {
+    margin-right: 0px;
+}
+footer {
+    margin-top: 120px;
+}
+.map {
+    
+}
+.footer-marker {
+    float: right;
+    margin-right: 205px;?/* не могу понять почему не хватает расстояни , ведь он же не центруется, поэтому я расстояние с конца карты мерял*/
+    width: 231px;
+    
+}
+.footer-social { /* не могу зафлоатить*/
+    margin-top: 80px;
+    float: left;
+    width: 240px;
+    margin-right: 80px;
+}
+.footer-social b {
+    float: right;
+    
+}
+.modal-window {
+    display:none;
+}
+
+.catalog {
+    
+}
+.filter {
+    float:left;
+    width: 240px;
+    margin-right: 80px;
+}
+.catalog {
+    float:left;
+    width:560px;
+    
+}
+.catalog-sorting {
+    float:left;
+    width: 460px;
+    margin-right: 60px;
+    margin-bottom: 20px;
+    
+    
+}
+.catalog-items {
+    
+}
+.catalog-item {/* не могу поместить по ширине,даже играя с маргинами*/
+    display: inline-block;
+    margin-right:80px;
+    margin-bottom: 45px;
+}
+.catalog-item:nth-child(2n) {
+    margin-right: 0px;
+
+    
+}
+
+
+   
+    
 h1 {
     font-family: Roboto Medium, Medium;
     font-size: 36px;
